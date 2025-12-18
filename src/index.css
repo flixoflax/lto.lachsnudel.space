@@ -1,0 +1,12 @@
+@import url("https://api.fontshare.com/v2/css?f[]=tanker@400&f[]=crimson-pro@400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Tanker", sans-serif;
+  --font-serif: "Crimson Pro", serif;
+}
+
+body,
+html {
+  @apply font-serif;
+}

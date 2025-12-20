@@ -47,7 +47,7 @@ export const App = (): JSX.Element => {
   useEffect(() => {
     const loadEpisodes = async () => {
       const feedUrl =
-        "https://test.cors.workers.dev/?uri=https://letscast.fm/podcasts/die-rechtslage-lto-dc1b8125/feed";
+        "https://test.cors.workers.dev/?https://letscast.fm/podcasts/die-rechtslage-lto-dc1b8125/feed";
 
       try {
         const response = await fetch(feedUrl);
